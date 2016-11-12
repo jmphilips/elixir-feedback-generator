@@ -7,3 +7,9 @@ I was often pressed for time when I was writing the individual feedback for the 
 
 ## Grammar | Posture | Content
 In addition, my teaching-team had already made the grading rubric with three grading categories: Grammar, Posture, Content.
+During the students' speeches, I always had enough time to write down the scores, but I often ran out of time making the 
+writing the personalized feedback. 
+
+## Solution
+My solution to this problem was to create a program that automatically gave feedback to the student by looking at the scores 
+and giving feedback based on the scores. 
