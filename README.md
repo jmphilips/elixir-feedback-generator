@@ -13,3 +13,12 @@ writing the personalized feedback.
 ## Solution
 My solution to this problem was to create a program that automatically gave feedback to the student by looking at the scores 
 and giving feedback based on the scores. 
+
+The three categories all get a score ranging from 0 to 10, and then a paragraph is made from the feedback.  
+
+## Examples
+
+```
+iex> Speechfeedback.final_output(5, 5, 5)
+"You found some good information about your topic. You showed some skill in looking at the class and speaking. You displayed strong grammar skills in your speech."
+```
