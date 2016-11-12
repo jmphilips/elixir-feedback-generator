@@ -20,5 +20,14 @@ The three categories all get a score ranging from 0 to 10, and then a paragraph 
 
 ```
 iex> Speechfeedback.final_output(5, 5, 5)
-"You found some good information about your topic. You showed some skill in looking at the class and speaking. You displayed strong grammar skills in your speech."
+"You found some good information about your topic. 
+You showed some skill in looking at the class and speaking. 
+You displayed strong grammar skills in your speech."
+```
+
+```
+iex(17)> Speechfeedback.final_output(1, 1, 9)
+"You did not try to find much information about your topic. 
+Next speech, please make sure you have more practice time with your speech. 
+The grammar in your speech was excellent - almost flawless."
 ```
