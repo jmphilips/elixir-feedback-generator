@@ -2,23 +2,25 @@
 
 **TODO: Add description**
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
-  1. Add `speechfeedback` to your list of dependencies in `mix.exs`:
 
-    ```elixir
-    def deps do
-      [{:speechfeedback, "~> 0.1.0"}]
-    end
-    ```
+// ## Installation
 
-  2. Ensure `speechfeedback` is started before your application:
+// If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
-    ```elixir
-    def application do
-      [applications: [:speechfeedback]]
-    end
-    ```
+//   1. Add `speechfeedback` to your list of dependencies in `mix.exs`:
 
+//     ```elixir
+//     def deps do
+//       [{:speechfeedback, "~> 0.1.0"}]
+//     end
+//     ```
+
+//   2. Ensure `speechfeedback` is started before your application:
+
+//     ```elixir
+//     def application do
+//       [applications: [:speechfeedback]]
+//     end
+//     ```
