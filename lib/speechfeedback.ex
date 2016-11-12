@@ -1,9 +1,12 @@
 defmodule Speechfeedback do
 
-    import Content.content_output
-
-    def scored do
-        Content.content_output(7)
+    def final_output(content_grade, posture_grade, grammar_grade) do
+        [
+            Content.content_output(content_grade),
+            Posture.posture_output(posture_grade),
+            Grammar.grammar_output(grammar_grade),
+        ] 
+        |> Enum.join(" ")
     end
 
 end
